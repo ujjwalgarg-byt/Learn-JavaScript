@@ -2,7 +2,7 @@ const accountId = 200402;
 let accountEmail = "ujjwal@google.com";
 var accountPassword = "12345";
 
-accountCity = "delhi";
+accountCity = "Mumbai";
 // accountId = 112233; //not allowed
 
 // let,var are changed after initialisation
