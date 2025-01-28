@@ -2,7 +2,7 @@
 const name = 'Ujjwal';
 const age = 21;
 
-console.log(`Hello my name is ${name} and my age is ${age}`);// this called string interpolation
+console.log(`Hello my name is ${name} and my age is ${age}`);// this method is called string interpolation
 
 // another method of declaring string
 
@@ -12,7 +12,7 @@ console.log(myName[0]); //u
 console.log(myName.length);//11
 console.log(myName.toUpperCase());//UJJWAL GARG
 console.log(myName.charAt(3));//w
-console.log(myName.__proto__);
+console.log(myName.__proto__);// return objects{}
 console.log(myName.indexOf("w"));//3
 console.log(myName.substring(0,5));//ujjwa
 console.log(myName.slice(7,10));//gar
