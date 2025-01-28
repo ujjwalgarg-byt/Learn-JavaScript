@@ -27,4 +27,5 @@ console.log(newString.trim());// remove extra spaces -- o/p is hello
 const newName= "ujjwal-21-b.tech-c.s.e";
 console.log(newName.split('-'));// make array according to - or given parameter
 //['ujjwal','21','b.tech','c.s.e']
+console.log('string is completed');
 
