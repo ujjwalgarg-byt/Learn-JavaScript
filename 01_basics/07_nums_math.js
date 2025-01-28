@@ -53,6 +53,8 @@ const min = 10;
 const max = 20;
 console.log(Math.floor(Math.random()*(max-min+1))+min); // always give value greater than 10 or between range
 
+console.log('heelo');
+
 
 
 
