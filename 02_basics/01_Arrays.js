@@ -32,9 +32,38 @@ const myAr2 = myArr.splice(1,3);
 console.log(myAr2);
 console.log("C ",myArr);
 
+// for merging two arrays we use concat and spread method
+// 1-concat method:-
+const myFav_heros=['spiderman','ironman','thor'];
+const myFriendFav_heros=['superman','flash','batman'];
+
+//merge
+const all_heros = myFav_heros.concat(myFriendFav_heros);
+console.log(all_heros); //['spiderman','ironman','thor','superman','flash','batman'];
+
+//2-spread method:-
+const all_new_heros = [...myFav_heros,...myFriendFav_heros];
+console.log(all_new_heros); //['spiderman','ironman','thor','superman','flash','batman'];
+
+//+++++ if we have multiple array in an array than we use flat method like below ++++++
+const another_array = [1,2,3,4,5,[6,7],8,[9,10,[11,12]]];
+const new_array = another_array.flat(Infinity);
+console.log(new_array); //[1,2,3,4,5,6,7,8,9,10,11,12]
+
+// ++++ If we want to convert a datatypes into array then we use from() like below
+console.log(Array.isArray("Ujjwal"));// for check it is array or not //op-false
+// for convert use
+console.log(Array.from("Ujjwal"));//['u','j','j','w','a','l']
+console.log(Array.from({name:"ujjwal"}));//interesting case
 
 
 
+// +++++ If we have multiple values and we want them to convert uin array then we use of()
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+console.log(Array.of(score1,score2,score3));//[100,200,300]
 
 
 
