@@ -39,5 +39,17 @@ console.log(obj3);//{1:"a",2:"b",3:"a",4:"b"}
 const obj4 = {...obj1,...obj2};
 console.log(obj4); //{1:"a",2:"b",3:"a",4:"b"}
 
+//+++++++++++++++ De-structuring of Objects ++++++++++++
+
+const course={
+    name:"JavaScript",
+    price:1000,
+    courseInstructor: "chai aur code",
+};
+//console.log(course.courseInstructor);
+// instead of this we use :--
+
+const {courseInstructor : instructor}=course; // this is called object's destructuring
+console.log(instructor);
 
 
