@@ -1,2 +1,2 @@
 # Learn-JavaScript
-learning Java Script 
+learning Java Script from scratch
