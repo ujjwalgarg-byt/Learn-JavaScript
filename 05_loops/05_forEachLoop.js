@@ -1,4 +1,4 @@
-// for each loop:- it is main;y use for array
+// for each loop:- it is mainly use for array
 // ex 1:-
  const coding = ["js","java","python","cpp"]
 
